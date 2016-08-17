@@ -1,0 +1,14 @@
+package tr.org.linux.kamp2016.helloworld;
+
+import java.util.Random;
+
+public class DiceTest {
+
+	
+	public static void main(String[] args) {
+		
+		Dice zar1=new Dice();
+		System.out.println("kazanan:"+ zar1.getFaceValue());
+	}
+
+}

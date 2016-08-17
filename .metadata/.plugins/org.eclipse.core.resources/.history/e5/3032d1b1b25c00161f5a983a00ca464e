@@ -1,0 +1,35 @@
+package tr.org.linux.kamp2016.helloworld;
+
+import java.util.Random;
+
+public class DiceTest {
+
+	
+	public static void main(String[] args) {
+		
+		
+		int player1= randomIntegerRandom(1,6);
+		int player2= randomIntegerRandom(1,6);
+		
+		Dice d =new Dice();
+		
+		if(player1>player2)
+			System.out.println("player1 has:" + d.getFaceValue() + "player2 has:" + d.getFaceValue());
+		
+		
+	else if(player1<player2)
+		System.out.println("player1 has:" +d.getFaceValue() + "player2 has:" + d.getFaceValue());
+		
+	
+	}
+		
+		
+			
+		
+	public static int randomIntegerRandom(int min,int max){
+		Random rgen=new Random();
+		int range=Math.abs(max-min)+1;
+		int random=min+rgen.nextInt(range);
+		return random;
+
+}}

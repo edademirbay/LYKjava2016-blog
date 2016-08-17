@@ -1,0 +1,15 @@
+package tr.org.linux.kamp2016.helloworld;
+
+public class StringTest {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1="eda demirbay";
+		char[] charArray = new char[5];
+		
+		s1.getChars(0, 5, charArray, 0);
+
+	}
+
+}

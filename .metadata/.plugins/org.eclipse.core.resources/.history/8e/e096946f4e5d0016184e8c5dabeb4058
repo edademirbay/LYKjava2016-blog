@@ -1,0 +1,23 @@
+package tr.org.linux.kamp2016.helloworld;
+
+public class ProductTable {
+
+	public static void main(String[] args) {
+		
+		int[][] array=new int[10][10];
+		
+		int counter=0;
+		for( int i=1; i<=array.length; i++){
+			
+			for(int j=1 ; j<=array[i].length; j++){
+				array[i][j]=counter;
+				counter++;
+				
+			}
+			}
+				System.out.println(array[i][j]);
+		
+		
+	}	}
+
+

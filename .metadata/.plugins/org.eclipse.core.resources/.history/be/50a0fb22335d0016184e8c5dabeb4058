@@ -1,0 +1,27 @@
+package tr.org.linux.kamp2016.helloworld;
+
+import java.util.Scanner;
+
+public class Fact {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner input=new Scanner(System.in);
+	  int sayi=input.nextInt();
+		
+		System.out.println("faktöriyeli alınacak sayıyı giriniz:" + factoriyel());
+		
+	}
+
+
+
+
+    int factoriyel(int a){
+    	
+    	int sonuç=1;
+    	for(int x=1 ;x <a; x++){
+    		sonuç=sonuç*x;
+    		
+    	}
+    }

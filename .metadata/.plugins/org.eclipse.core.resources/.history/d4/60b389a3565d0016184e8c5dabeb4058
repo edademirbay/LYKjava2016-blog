@@ -1,0 +1,10 @@
+package tr.org.linux.kamp2016.helloworld;
+
+public class String {
+
+	public static void main(String[] args) {
+		String s1 ="eda demirbay";
+		s1.getChars(0,5,s1,0);
+	}
+
+}

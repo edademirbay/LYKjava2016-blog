@@ -1,0 +1,28 @@
+package tr.org.linux.kamp2016.helloworld;
+
+public class Random {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double randomNumber1 =Math.random();
+		System.out.println(randomNumber1);
+
+		double randomNumber2=(int)Math.random()*5;
+		System.out.println(randomNumber2);
+		
+		double randomNumber3=(int)Math.randomIntegerMath(5);
+		System.out.println(randomNumber3);
+
+	}
+	
+	public static int randomIntegerMath(int min, int max){
+		int range=Math.abs(max-min)+1;
+		int random = min+(int)(Math.random()*range);
+		return random;
+	}
+
+}

@@ -1,0 +1,17 @@
+package tr.org.linux.kamp2016.helloworld;
+
+public class fibo {
+
+	public static int fibonacci(int x){
+		 int fib1=0;
+		int fib2=1;
+		
+		for (int i = 2; i <=x; i++) {
+			
+			int sonuç=fibonacci(i-2)+fibonacci(i-1);
+			return sonuç;
+		}
+
+	}
+
+}

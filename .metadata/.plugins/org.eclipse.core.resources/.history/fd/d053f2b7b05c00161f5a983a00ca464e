@@ -1,0 +1,33 @@
+package tr.org.linux.kamp2016.helloworld;
+
+import java.util.Random;
+
+public class Dice {
+  
+	private int faceValue;
+	
+	
+	public int getFaceValue() {
+		return faceValue;
+	}
+
+	
+
+	public Dice(){
+		// int faceValue=1;
+		 this.faceValue=faceValue;
+	}
+	
+	public void Roll(){
+		int faceValue= randomIntegerRandom(1,6);
+		
+	}
+	
+	public static int randomIntegerRandom(int min,int max){
+		Random rgen=new Random();
+		int range=Math.abs(max-min)+1;
+		int random=min+rgen.nextInt(range);
+		return random;
+	
+}
+}

@@ -1,0 +1,19 @@
+package tr.org.linux.kamp2016.helloworld;
+
+public class ProductTable {
+
+	private static int [][] array=new int[10][10];
+		
+		int[][] multitable =InitializeMultiplicationTable(10);
+		arrayToPrint(multitable);
+				
+		
+				
+			}
+			}
+				
+ void arrayToPrint(int[][]matrices){
+		
+	}	}
+
+

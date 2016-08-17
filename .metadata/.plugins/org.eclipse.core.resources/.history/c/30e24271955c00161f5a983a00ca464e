@@ -1,0 +1,19 @@
+package tr.org.linux.kamp2016.helloworld;
+
+public class Random {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double randomNumber1 =Math.random();
+		System.out.println(randomNumber1);
+
+		double randomNumber2=Math.random();
+		System.out.println(randomNumber2);
+
+	}
+
+}

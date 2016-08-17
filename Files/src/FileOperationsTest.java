@@ -1,0 +1,18 @@
+import java.io.IOException;
+import java.nio.ByteBuffer;
+
+public class FileOperationsTest {
+
+	public static void main(String args[]) throws IOException {
+
+		FileOperations.createDirectory("/home/eda/hede/");
+
+		FileOperations.createFile("/home/eda/hede/readme.md");
+
+		FileOperations.writeToFile("ASDFG","/home/eda/hede/readme.md");
+
+		FileOperations.readFile("/home/eda/hede/readme.md");
+
+	}
+
+}
